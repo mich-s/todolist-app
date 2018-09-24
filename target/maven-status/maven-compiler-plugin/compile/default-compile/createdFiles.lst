@@ -1,0 +1,16 @@
+com\michal\todolist\controller\AppController.class
+com\michal\todolist\service\TodoListService.class
+com\michal\todolist\config\AppConfig.class
+com\michal\todolist\config\SecurityWebAppInitializer.class
+com\michal\todolist\entity\TodoList.class
+com\michal\todolist\controller\RegisterUserController.class
+com\michal\todolist\entity\TodoListUser.class
+com\michal\todolist\dao\TodoListDao.class
+com\michal\todolist\controller\LoginController.class
+com\michal\todolist\config\HibernateConfig.class
+com\michal\todolist\config\SecurityConfig.class
+com\michal\todolist\dao\TodoListDaoImpl.class
+com\michal\todolist\service\TodoListServiceImpl.class
+com\michal\todolist\test\TestDbConnection.class
+com\michal\todolist\entity\Task.class
+com\michal\todolist\config\SpringMvcDispatcherServletInitializer.class
