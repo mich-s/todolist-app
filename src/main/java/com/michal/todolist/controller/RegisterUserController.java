@@ -45,8 +45,7 @@ public class RegisterUserController {
 	}
 
 	@PostMapping("/processRegistrationForm")
-	public String processRegistrationForm(
-				@Valid @ModelAttribute("todoListUser") TodoListUser todoListUser, 
+	public String processRegistrationForm(@Valid @ModelAttribute("todoListUser") TodoListUser todoListUser, 
 				BindingResult theBindingResult, 
 				Model theModel) {
 						

@@ -73,5 +73,48 @@ public class Task {
 	public String toString() {
 		return "Task [id=" + id + ", task=" + task + ", done=" + done + "]";
 	}
+
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + done;
+		result = prime * result + id;
+		result = prime * result + ((task == null) ? 0 : task.hashCode());
+		result = prime * result + ((todoList == null) ? 0 : todoList.hashCode());
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Task other = (Task) obj;
+		if (done != other.done)
+			return false;
+		if (id != other.id)
+			return false;
+		if (task == null) {
+			if (other.task != null)
+				return false;
+		} else if (!task.equals(other.task))
+			return false;
+		if (todoList == null) {
+			if (other.todoList != null)
+				return false;
+		} else if (!todoList.equals(other.todoList))
+			return false;
+		return true;
+	}
+	
+	
+	
+	
 	
 }

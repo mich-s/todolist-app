@@ -22,8 +22,6 @@ public class AppController {
 
 	@Autowired
 	private TodoListService todoListService;
-	
-//	private Logger myLogger = Logger.getLogger(getClass().getName());
 
 	@GetMapping("/")
 	public String showHome(Model model, Principal principal) {

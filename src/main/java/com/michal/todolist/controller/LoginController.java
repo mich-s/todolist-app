@@ -11,10 +11,4 @@ public class LoginController {
 		return "login-form";
 	}
 	
-	
-	/*@GetMapping("/accessDenied")
-	public String showAccessDenied() {
-		return "access-denied";
-	}*/
-	
 }
