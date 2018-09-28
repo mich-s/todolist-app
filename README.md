@@ -59,4 +59,6 @@ Another possibility is to import this project to an IDE and build the project to
 
 ### Screenshots
 ![Alt](
+https://github.com/mich-s/todolist-app/blob/master/src/main/webapp/resources/img/tl2.PNG)
+![Alt](
 https://github.com/mich-s/todolist-app/blob/master/src/main/webapp/resources/img/tl1.PNG)
